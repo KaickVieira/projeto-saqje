@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    --cor1: #3321A6;
+    --cor2: #070A40;
+    --cor3: #04D9B2;
+    --cor4: #E4E9F2;
+    --cor5: #2D4BA6;
+}
+
+
+nav {
+    
+    background-color:var(--cor2);
+    border: 1px solid rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 76px;
+
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+nav h1 {
+    color: white;
+    
+}
+li > a { 
+    color: white;
+    text-decoration: none;
+}
+
+
+.jovem-aprendiz{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 30px 30px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 90vh;
+    background-color: var(--cor5);
+    color: white;
+}
+
+.caixa{
+    box-sizing: border-box;
+    
+    width: 80%;
+    height: 60vh;
+    margin-top: 90px;
+    margin-left: 50px;
+}
+
+.caixa h1 {
+    font-size: 60px;
+}
+
+.caixa .texto {
+    margin-top: 12px;
+    font-size: 20px;
+}
+
+.caixa .botao {
+    background-color: var(--cor2);
+    text-align: center;
+    padding: 20px;
+    width: 20%;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 8px;
+}
+.botao a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+.imagens {
+    box-sizing: border-box;
+    
+    width: 100%;
+    height: 860px;
+}
+
+.imagens img{
+    width: 50%;
+    height: 862px;
+    margin-left: 100px;
+}
+
+.cursos{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 30px 30px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 90vh;
+    background-color: var(--cor1);
+    color: white;
+}
+
+.cursos img{
+    width: 70%;
+}
+
+.container {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    height: 90vh;
+    background-color: var(--cor5);
+    color: white;
+    text-align: center;
+    
+}
+
+.depoimentos h1 {
+    font-size: 68px;  
+}
