@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    --cor1: #3321A6;
+    --cor2: #070A40;
+    --cor3: #04D9B2;
+    --cor4: #E4E9F2;
+    --cor5: #2D4BA6;
+}
+
+/* Jovem Aprendiz */
+
+nav {
+    
+    background-color:var(--cor2);
+    border: 1px solid rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 76px;
+
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+nav h1 {
+    color: white;
+    
+}
+li > a { 
+    color: white;
+    text-decoration: none;
+}
+
+.explicacao {
+    background-color: var(--cor1);
+    width: 100%;
+    height: 100vh;
+    padding-top: 70px;
+}
+
+main {
+    margin: auto;
+    background-color: var(--cor4);
+    width: 80%;
+    height: 100vh;
+    border-radius: 6px;
+}
+
+main h1 {
+    margin: auto;
+    width: 30%;
+    font-size: 44px;
+    padding-top: 60px;
+    padding-left: 28px;
+}
+
+main p {
+    padding-top: 10px;
+    margin: auto;
+    width: 80%;
+
+}
