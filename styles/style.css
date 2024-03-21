@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 300px) {
     
 
 * {
@@ -15,7 +15,6 @@
 
 
 nav {
-    
     background-color:var(--cor2);
     border: 1px solid rgb(0, 0, 0);
     display: flex;
@@ -31,8 +30,9 @@ nav {
 }
 
 .nav-list li {
-    letter-spacing: 3px;
-    margin-left: 32px;
+    font-size: 12px;
+    letter-spacing: 0px;
+    margin-left: 12px;
 }
 
 nav h1 {
@@ -45,126 +45,5 @@ li > a {
 }
 
 
-.jovem-aprendiz{
-    display: grid;
-    gap: 20px;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 30px 30px;
-    box-sizing: border-box;
-    width: 100%;
-    height: 90vh;
-    background-color: var(--cor5);
-    color: white;
-}
-
-.caixa{
-    box-sizing: border-box;
-    
-    width: 80%;
-    height: 60vh;
-    margin-top: 90px;
-    margin-left: 50px;
-}
-
-.caixa h1 {
-    font-size: 60px;
-}
-
-.caixa .texto {
-    margin-top: 12px;
-    font-size: 20px;
-}
-
-.caixa .botao {
-    background-color: var(--cor2);
-    text-align: center;
-    padding: 20px;
-    width: 20%;
-    margin: auto;
-    margin-top: 40px;
-    border-radius: 8px;
-}
-.botao a {
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-}
-.imagens {
-    box-sizing: border-box;
-   
-    width: 100%;
-    height: 785px;
-}
-
-.imagens img{
-    width: 50%;
-    height: 785px;
-    margin-left: 100px;
-}
-
-.cursos{
-    display: grid;
-    gap: 20px;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 30px 30px;
-    box-sizing: border-box;
-    width: 100%;
-    height: 90vh;
-    background-color: var(--cor1);
-    color: white;
-}
-
-.cursos img{
-    width: 70%;
-}
-
-.container {
-    
-    display: block;
-    box-sizing: border-box;
-    width: 100%;
-    height: 90vh;
-    background-color: var(--cor5);
-    color: white;
-    text-align: center;
-    
-}
-.container2 {
-    display: flex;
-    padding-top: 15px;
-    margin: auto;
-    box-sizing: border-box;
-    width: 65%;
-    height: 30vh;
-    background-color: var(--cor5);
-    color: white;
-    text-align: center;
-    
-}
-
-.depoimentos h1 {
-    font-size: 68px;  
-    padding: 110px;
-}
-
-.depoimentosbox {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.box {
-    border: 1px solid rgb(0, 0, 0);
-    border-radius: 8px;
-    margin: 5px;
-    width: 10%;
-    height: 300px;
-    background-color: var(--cor2);
-}
-
-.container .box {
-
-    width: 100%;
-}
 
 }
