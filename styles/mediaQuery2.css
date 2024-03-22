@@ -11,7 +11,19 @@ Desktop - 992px 1200px
     .nav-list li {
         font-size: 16px;
     }
+
+    /*Página de Login*/
+
+    .login {
+        width: 80%;
+    }
+
+    /*Página de cursos*/
+    .curso {
+        width: 80%;
+    }
 }
+
 
 @media screen and (min-width: 992px) {
     nav h1 {
@@ -19,5 +31,57 @@ Desktop - 992px 1200px
     }
     .nav-list li{
         font-size: 20px;
+    }
+
+    /*Página de Login*/
+    #notebook2 {
+        display: none;
+    }
+
+    .login-container {
+        width: 90%;
+        height: 50vh;
+        background-color: var(--cor4);
+        box-shadow: 4px 4px rgba(0, 0, 0, 0.24);
+    }
+    .imagens {
+        width: 50%;
+    }
+    #notebook1 {
+        box-sizing: border-box;
+        width: 85%;
+        height: 50vh;
+    }
+    .login {
+        width: 55%;
+        box-shadow: none;
+        margin-right: 50px;
+    }
+
+    /*Página de cursos*/
+
+    .container-cursos {
+        margin-top: 20px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 240px;
+        gap: 20px;
+        height: 100%;
+    }
+    .curso {
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    /*página do curso*/
+    
+    .container-cursos {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 10px;
+        height: 80vh;
+    }
+    .curso {
+        grid-row: 2;
     }
 }
