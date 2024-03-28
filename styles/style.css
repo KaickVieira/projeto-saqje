@@ -44,6 +44,94 @@ li > a {
     text-decoration: none;
 }
 
+.ja-container, .cursos-container {
+    
+    border: 1px solid red;
+    box-sizing: border-box;
+
+    width: 100%;
+    height: 100vh;
+}
+
+.ja-container {
+    background-color: var(--cor5);
+}
+
+.content {
+    border: 1px solid;
+    margin-top: 40px;
+    color: white;
+}   
+.content h1 {
+    border: 1px solid yellow;
+    width: 90%;
+    margin: auto;
+}
+
+.content p {
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.content button {
+    width: 60%;
+    height: 4vh;
+    display: flex;
+    margin: auto;
+    margin-top: 15px;
+    border-radius: 8px;
+    border: 1px solid black;
+    background-color: var(--cor2);
+}
+
+button a {
+    margin: auto;
+    text-decoration: none;
+    color: white;
+}
+
+.cursos-container {
+    background-color: var(--cor1);
+}
+
+.depoimentos {
+    background-color: var(--cor5);
+    height: 150vh;
+    color: white;
+    
+    display: grid;
+    grid-template-columns: 1fr;
+    
+}
+
+#title {
+    border: 1px solid red;
+    width: 90%;
+    margin: auto;
+    font-size: 22px;
+}
+
+.depoimentos-box{
+    border: 1px solid greenyellow;
+    width: 80%;
+    height: 30vh;
+    margin: auto;
+
+}
+
+.depoimentos-box h1 {
+    width: 70%;
+    border: 1px solid yellow;
+    margin: auto;
+    font-size: 20px;
+}
+
+.depoimentos-box h3 {
+    font-size: 15px;
+    margin: auto;
+    width: 70%;
+}
 
 
 }
