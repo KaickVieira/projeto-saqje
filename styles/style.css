@@ -13,6 +13,9 @@
     --cor5: #2D4BA6;
 }
 
+.imagemG, .imagemM {
+    display: none;
+}
 
 nav {
     background-color:var(--cor2);
@@ -55,7 +58,16 @@ li > a {
 
 .ja-container {
     background-color: var(--cor5);
+
 }
+
+.imagem {
+    display: none;
+    border: 1px solid yellow;
+    height: 35vh;
+    margin-top: 230px;
+}
+
 
 .content {
     border: 1px solid;
