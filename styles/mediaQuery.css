@@ -6,3 +6,90 @@ tablet - 768px 992px
 Desktop - 992px 1200px 
 */
 
+/*Celular*/
+@media screen and (min-width: 600px) {
+
+
+.nav-list li {
+    font-size: 16px;
+}  
+
+.content {
+    width: 80%;
+}
+
+#title {
+    font-size: 30px;
+}
+
+.depoimentos-box {
+    width: 60%;
+}
+}
+
+
+
+@media screen and (min-width: 992px) {
+nav h1 {
+    font-size: 32px;
+}
+.nav-list li{
+    font-size: 20px;
+}
+
+.imagemP {
+    display: none;
+}
+
+
+
+.ja-container, .cursos-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.content {
+    width: 90%;
+    height: 50vh;
+}
+
+.content button {
+    height: 6vh;
+    margin-top: 90px;
+}
+
+.content button a {
+    font-size: 20px;
+}
+
+.ja-container .imagemM {
+    display: block;
+    border: 1px solid red;
+    width: 50%;
+    
+    position: absolute;
+    bottom: 0;
+    right: 0;
+   
+    overflow: hidden;
+    clear: both;
+    margin-bottom: 10px;
+    
+
+}
+
+.cursos-container .imagemM {
+    display: block;
+    border: 1px solid red;
+    width: 50%;
+    
+    position: absolute;
+    bottom: 1;
+    left: 0;
+   
+    overflow: hidden;
+    clear: both;
+    margin-bottom: 10px;
+}
+
+}

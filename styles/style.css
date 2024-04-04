@@ -47,32 +47,47 @@ li > a {
     text-decoration: none;
 }
 
+/*Geral*/
 .ja-container, .cursos-container {
-    
     border: 1px solid red;
     box-sizing: border-box;
-
     width: 100%;
-    height: 100vh;
+    height: 90vh;
+
 }
 
+/*Jovem Aprendiz*/
 .ja-container {
     background-color: var(--cor5);
-
 }
+
 
 .imagem {
-    display: none;
+    max-width: 300px;
+    max-height: 300px;
     border: 1px solid yellow;
+    width: 90%;
     height: 35vh;
-    margin-top: 230px;
+    margin: auto;
+    margin-top: 40px;
 }
 
+.imagemP {
+    width: 100%;
+    height: 100%;
+}
+#garota3 {
+    border: 1px solid rgb(0, 0, 0);
+    width: 100%;
+}
 
 .content {
+    width: 95%;
+    margin: auto;
     border: 1px solid;
     margin-top: 40px;
     color: white;
+    
 }   
 .content h1 {
     border: 1px solid yellow;
@@ -103,10 +118,12 @@ button a {
     color: white;
 }
 
+/*Cursos Preparatórios*/
 .cursos-container {
     background-color: var(--cor1);
 }
 
+/*Depoimentos*/
 .depoimentos {
     background-color: var(--cor5);
     height: 150vh;
@@ -122,6 +139,7 @@ button a {
     width: 90%;
     margin: auto;
     font-size: 22px;
+    text-align: center;
 }
 
 .depoimentos-box{
@@ -137,12 +155,15 @@ button a {
     border: 1px solid yellow;
     margin: auto;
     font-size: 20px;
+    text-align: center;
 }
 
 .depoimentos-box h3 {
     font-size: 15px;
     margin: auto;
     width: 70%;
+    text-align: center;
+    padding: 5px;
 }
 
 
