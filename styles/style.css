@@ -121,6 +121,13 @@ button a {
 }
 
 /*Depoimentos*/
+
+.depoimentos-container {
+    background-color: var(--cor5);
+    color: white;
+    padding-top: 5px;
+}
+
 .depoimentos {
     background-color: var(--cor5);
     height: 150vh;

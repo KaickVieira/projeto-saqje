@@ -19,11 +19,11 @@ Desktop - 992px 1200px
     #title {
         font-size: 30px;
     }
-
     .depoimentos-box {
         width: 60%;
     }
 }
+
 
 
 
@@ -83,4 +83,15 @@ Desktop - 992px 1200px
 
     }
 
+#title {
+    font-size: 40px;
+    margin-top: 60px;
+}
+
+.depoimentos {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 350px 250px;
+    gap: 10px;
+    height: 100vh;
+}
 }
