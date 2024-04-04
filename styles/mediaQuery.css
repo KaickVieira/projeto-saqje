@@ -8,88 +8,79 @@ Desktop - 992px 1200px
 
 /*Celular*/
 @media screen and (min-width: 600px) {
+    .nav-list li {
+        font-size: 16px;
+    }  
 
+    .content {
+        width: 80%;
+    }
 
-.nav-list li {
-    font-size: 16px;
-}  
+    #title {
+        font-size: 30px;
+    }
 
-.content {
-    width: 80%;
-}
-
-#title {
-    font-size: 30px;
-}
-
-.depoimentos-box {
-    width: 60%;
-}
+    .depoimentos-box {
+        width: 60%;
+    }
 }
 
 
 
 @media screen and (min-width: 992px) {
-nav h1 {
-    font-size: 32px;
-}
-.nav-list li{
-    font-size: 20px;
-}
+    nav h1 {
+        font-size: 32px;
+    }
+    .nav-list li{
+        font-size: 20px;
+    }
 
-.imagemP {
-    display: none;
-}
+    .imagemP {
+        display: none;
+    }
 
+    .ja-container, .cursos-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
 
+    .imagem {
+        display: flex;
+        justify-content: center;
+        max-width: 100%;
+        border: 1px solid yellow;
+        width: 100%;
+        height: 100%;
+    }
 
-.ja-container, .cursos-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
+    .content button {
+        height: 6vh;
+        margin-top: 90px;
+    }
 
-.content {
-    width: 90%;
-    height: 50vh;
-}
+    .content button a {
+        font-size: 20px;
+    }
 
-.content button {
-    height: 6vh;
-    margin-top: 90px;
-}
-
-.content button a {
-    font-size: 20px;
-}
-
-.ja-container .imagemM {
-    display: block;
-    border: 1px solid red;
-    width: 50%;
+    .ja-container .imagem {
+        min-height: 100%;
+        width: 100%;
+    }
     
-    position: absolute;
-    bottom: 0;
-    right: 0;
-   
-    overflow: hidden;
-    clear: both;
-    margin-bottom: 10px;
+    .ja-container .imagemM {
+        display: block;
+        height: 100%;
+    }
     
+    .cursos-container .imagem {
+        min-height: 100%;
+        width: 100%;
+    }
+    .cursos-container .imagemM {
+        display: block;
+        height: 100%;
 
-}
-
-.cursos-container .imagemM {
-    display: block;
-    border: 1px solid red;
-    width: 50%;
-    
-    position: absolute;
-    bottom: 1;
-    left: 0;
-   
-    overflow: hidden;
-    clear: both;
-    margin-bottom: 10px;
-}
+    }
 
 }
