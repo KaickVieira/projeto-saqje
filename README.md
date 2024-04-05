@@ -1,7 +1,7 @@
 Projeto SAQJE
 Sistema de Aprendizagem e Qualificação Para Jovens e Empresas
 
-O projeto foi criado em Grupo, durante o curso do Senac de Qualificação em Serviços Admnistrativos - Jovem Aprendiz
+O projeto foi criado em Grupo, durante o curso do Senac de Qualificação em Serviços Administrativos - Jovem Aprendiz
 
 A ideia do projeto veio devido a falta de informação sobre o que é, e como se qualificar para ser um Jovem Aprendiz,
 decidimos então criar um ambiente onde jovens poderia ter acesso a informação, qualificação e vagas especialmente para aprendizes.
@@ -10,8 +10,11 @@ Junto ao site, também foi idealizado um perfil no instagram(@saqje_), justament
 no site, contamos com 4 áreas principais
 
 Área 1: Depoimentos de pessoas que passaram pelo programa Jovem Aprendiz e agora estão efetivados graças ao programa.
+
 Área 2: Uma página completa com tudo que é necessário para compreender o que é o Jovem Aprendiz.
+
 Área 3: Cursos de Qualificação, para as Habilidades necessárias para se tornar um J.A.
+
 Área 4: Empresas que fornecem Vagas para Jovens.
 
 
