@@ -6,6 +6,17 @@ tablet - 768px 992px
 Desktop - 992px 1200px 
 */
 
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    --cor1: #3321A6;
+    --cor2: #070A40;
+    --cor3: #04D9B2;
+    --cor4: #E4E9F2;
+    --cor5: #2D4BA6;
+}
+
 /*Celular*/
 @media screen and (min-width: 600px) {
     .nav-list li {
@@ -43,15 +54,15 @@ Desktop - 992px 1200px
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 20px;
+        height: 100vh;
     }
 
     .imagem {
         display: flex;
         justify-content: center;
         max-width: 100%;
-        border: 1px solid yellow;
-        width: 100%;
-        height: 100%;
+        width: 50%;
+        height: 50%;
     }
 
     .content button {
@@ -65,11 +76,12 @@ Desktop - 992px 1200px
 
     .ja-container .imagem {
         min-height: 100%;
-        width: 100%;
+        width: 90%;
     }
     
     .ja-container .imagemM {
         display: block;
+        width: 100%;
         height: 100%;
     }
     
@@ -79,6 +91,7 @@ Desktop - 992px 1200px
     }
     .cursos-container .imagemM {
         display: block;
+        width: 100%;
         height: 100%;
 
     }
@@ -94,4 +107,31 @@ Desktop - 992px 1200px
     gap: 10px;
     height: 100vh;
 }
+}
+
+/*Telas Grandes*/
+
+@media screen and (min-width: 1200px){
+    
+    .depoimentos-container{
+        width: 100%;
+        height: 100vh;
+    }
+    .depoimentos {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 10px;
+        height: 80vh;
+        height: 60vh;
+        width: 90%;
+
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    .depoimentos-box {
+        width: 90%;
+        grid-row: 2;
+
+        
+    }
 }

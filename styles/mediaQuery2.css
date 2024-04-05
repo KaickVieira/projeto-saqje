@@ -22,6 +22,17 @@ Desktop - 992px 1200px
     .curso {
         width: 80%;
     }
+
+
+     /*Página de Vagas*/
+
+     .enc_vagas{
+        font-size: 40px;
+        margin-top: 20px;
+     }
+     .vagas {
+        width: 60%;
+    }
 }
 
 
@@ -59,6 +70,9 @@ Desktop - 992px 1200px
     }
 
     /*Página de cursos*/
+    .body-cursos {
+        height: 100vh;
+    }
 
     .container-cursos {
         margin-top: 20px;
@@ -70,18 +84,68 @@ Desktop - 992px 1200px
     .curso {
         width: 90%;
     }
+
+    /*Página de Vagas*/
+    
+    .body-vagas {
+        height: 100vh;
+    }
+    .container-vagas {
+        margin-top: 20px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 240px;
+        gap: 20px;
+        height: 100%;
+    }
+    .vagas {
+        width: 90%;
+        height: 40vh;
+    }
+
 }
 
 @media screen and (min-width: 1200px) {
 
     /*página do curso*/
     
+    .body-cursos {
+        margin-top: 50px;
+        height: 100vh;
+    }
+
+    .cur-preparatorio{
+        font-size: 50px;
+    }
     .container-cursos {
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: 10px;
-        height: 80vh;
+        height: 50vh;
+        margin-top: 30px;
     }
     .curso {
         grid-row: 2;
     }
+
+    /*Página de Vagas*/
+
+    .enc_vagas {
+        font-size: 50px;
+        margin-top: 70px;
+    }
+    .body-vagas {
+        height: 100vh;
+    }
+    .container-vagas {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 10px;
+        height: 50vh;
+    }
+    .vagas {
+        grid-row: 2;
+    }
+
+    .vagas:hover {
+        height: 40vh;
+    }
 }
+

@@ -51,6 +51,10 @@ color: white;
 text-decoration: none;
 }
 
+li a:hover {
+    color: darkgray;
+}
+
 main {
 min-width: 300;
 max-width: 1000;
@@ -223,6 +227,16 @@ button a {
 
 /*Página de Cursos*/
 
+.cur-preparatorio {
+    margin-top: 20px;
+    color: white;
+    text-align: center; 
+}
+
+#texto {
+    color: rgb(231, 222, 222);
+    text-align: center;
+}
 .container-cursos {
     margin: auto;
     width: 90%;
@@ -241,9 +255,10 @@ button a {
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.452);
     
     margin: auto;
+    margin-bottom: 10px;
     width: 90%;
-    height: 40vh;
-
+    height: 45vh;
+    
     color: white;
 }
 
@@ -273,4 +288,72 @@ button a {
 
 .curso p {
     text-align: center;
+}
+
+/*Página de Vagas*/
+
+.body-vagas {
+    background-color: var(--cor1);
+    color: white;
+    width: 100%;
+    height: 200%;
+    box-sizing: border-box;
+}
+
+.enc_vagas {
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+}
+.container-vagas {
+    margin: auto;
+    width: 90%;
+    height: 90%;
+    
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-top: 20px;
+
+}
+
+.vagas {
+    text-decoration: none;
+    border: 1px solid black;
+    background-color: var(--cor2);
+    border-radius: 8px 8px 8px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.452);
+    
+    margin: auto;
+    width: 90%;
+    height: 45vh;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.vagas:hover {
+    width: 92%;
+    height: 44vh;
+    border: 2px solid var(--cor3);
+}
+
+.empresa-img {
+    width: 30%;
+    border-radius: 100px;
+    display: flex;
+    margin: auto;
+    
+
+}
+
+.vagas h1 {
+    border: 1px solid var(--cor3);
+    text-align: center;
+    padding: 8px;
+    margin: 10px;
+}
+
+.vagas p {
+    text-align: center;
+
 }
