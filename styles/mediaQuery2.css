@@ -22,7 +22,9 @@ Desktop - 992px 1200px
     .curso {
         width: 80%;
     }
-
+    .curso-img{
+        width: 80px;
+    }
 
      /*Página de Vagas*/
 
@@ -32,6 +34,13 @@ Desktop - 992px 1200px
      }
      .vagas {
         width: 60%;
+    }
+
+    .empresa-img{
+        width: 80px;
+    }
+    .container-vagas h1 {
+        font-size: 25px;
     }
 }
 
@@ -143,6 +152,7 @@ Desktop - 992px 1200px
     .vagas {
         grid-row: 2;
     }
+
 
     .vagas:hover {
         height: 40vh;
