@@ -103,9 +103,19 @@ Desktop - 992px 1200px
 
 .depoimentos {
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 350px 250px;
+    grid-template-rows: 250px 150px;
     gap: 10px;
-    height: 100vh;
+    height: 90vh;
+    margin-top: 20px;
+    border: 1px solid red;
+}
+
+.depoimentos-box {
+    margin-bottom: 5px;
+    width: 90%;
+    height: 35vh;
+    
+    margin-top: 5px;
 }
 }
 
@@ -117,6 +127,7 @@ Desktop - 992px 1200px
         width: 100%;
         height: 100vh;
     }
+
     .depoimentos {
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: 10px;
@@ -131,7 +142,7 @@ Desktop - 992px 1200px
     .depoimentos-box {
         width: 90%;
         grid-row: 2;
-
+        height: 40vh;
         
     }
 }
