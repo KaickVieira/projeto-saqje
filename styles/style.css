@@ -135,11 +135,11 @@ button a {
 
 .depoimentos {
     background-color: var(--cor5);
-    height: 150vh;
+    height: 120vh;
     color: white;
-    
     display: grid;
     grid-template-columns: 1fr;
+    grid-template-rows: 400px 400px ;
     
 }
 
@@ -154,8 +154,9 @@ button a {
 
 .depoimentos-box{
     width: 80%;
-    height: 30vh;
+    height: 40vh;
     margin: auto;
+    margin-top: 30px;
     background-color: var(--cor2);
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.164);
     border:  2px solid black ;
@@ -171,12 +172,15 @@ button a {
 }
 
 .depoimentos-box h3 {
-    font-size: 15px;
+    font-size: 10px;
     margin: auto;
     width: 70%;
     text-align: center;
     padding: 5px;
 }
 
+.depoimentos-box p {
+    font-size: 10px;
+}
 
 }
